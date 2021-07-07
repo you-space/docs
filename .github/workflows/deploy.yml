@@ -1,0 +1,32 @@
+name: Deploy site
+
+on: [push]
+  # release:
+  #   types: [created]
+    
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: cache-dependence
+        uses: actions/cache@v2
+        id: cache-dependence
+        with:
+          path: node_modules            
+          key: modules-${{ hashFiles('package-lock.json') }}
+
+      - name: install dependence
+        if: steps.cache-dependence.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: build
+        run: npm run build
+      
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/.vuepress/dist
+          commit_message: ${{ github.event.head_commit.message }}
