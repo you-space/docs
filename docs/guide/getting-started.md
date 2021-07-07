@@ -62,8 +62,14 @@ node ace migration:run
 ```
 node ace db:seed
 ```
-
-- **Step 7**: finally you can run the app and check the dashboard in http://localhost:3333/ys-admin
+- **Step 7**: run the app
 ```
 npm run dev
 ```
+
+- **Step 8**: And finally you can check the dashboard in http://localhost:3333/ys-admin and log in with the information below
+```
+username: admin
+password: ys-123456
+```
+
