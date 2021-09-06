@@ -1,12 +1,12 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
 
 export const sidebar: SidebarConfig = {
-    '/guide/': [
+    '/installation/': [
         {
-            text: 'Guide',
+            text: 'Installation',
             children: [
-                '/guide/README.md',
-                '/guide/getting-started.md',
+                '/installation/using-zip.md',
+                '/installation/development-setup.md',
             ]
         }
     ]

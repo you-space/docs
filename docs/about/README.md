@@ -1,8 +1,6 @@
-# Introduction
+## About
 
 You space is a content management that can connect with others sources of content and centralize all they in just one place.
-
-## About
 
 The ideia of you-space is centralize the content of one creator and give him a more freedom way to interact with his public.
 
@@ -12,8 +10,12 @@ You can also upload some videos in the local you-space instance too and mix they
 
 ## Technologies
 
-- [adonisjs v5](https://adonisjs.com/blog/introducing-adonisjs-v5/): Api of you space is made pure in adonisjs
-- [quasar/vuejs](https://quasar.dev/): For the dashboard we use vuejs with quasar framework
+- [Nodejs v14](https://nodejs.org/en/)
+- [Adonisjs v5](https://adonisjs.com/blog/introducing-adonisjs-v5/)
+- [Redis DB](https://redis.io/)
+- [Postgres DB](https://www.postgresql.org/)
+- [Vuejs](https://vuejs.org/)
+
 
 
 
