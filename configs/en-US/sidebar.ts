@@ -1,13 +1,14 @@
-import type { SidebarConfig } from '@vuepress/theme-default'
+import type { SidebarConfig } from "@vuepress/theme-default";
 
 export const sidebar: SidebarConfig = {
-    '/installation/': [
+    "/installation/": [
         {
-            text: 'Installation',
+            text: "Installation",
             children: [
-                '/installation/using-zip.md',
-                '/installation/development-setup.md',
-            ]
-        }
-    ]
-}
+                "/installation/using-build-zip.md",
+                "/installation/docker.md",
+                "/installation/development-setup.md",
+            ],
+        },
+    ],
+};
