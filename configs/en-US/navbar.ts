@@ -16,6 +16,15 @@ export const navbar: NavbarConfig = [
                     "/installation/development-setup.md",
                 ],
             },
+            {
+                text: "Types",
+                children: [
+                    {
+                        text: "What is Types?",
+                        link: "/types/",
+                    },
+                ],
+            },
         ],
     },
 ];

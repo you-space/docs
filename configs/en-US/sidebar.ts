@@ -11,4 +11,15 @@ export const sidebar: SidebarConfig = {
             ],
         },
     ],
+    "/types/": [
+        {
+            text: "Types",
+            children: [
+                {
+                    text: "What is Types?",
+                    link: "/types",
+                },
+            ],
+        },
+    ],
 };
