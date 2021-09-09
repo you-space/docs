@@ -17,13 +17,12 @@ export const navbar: NavbarConfig = [
                 ],
             },
             {
-                text: "Types",
-                children: [
-                    {
-                        text: "What is Types?",
-                        link: "/types/",
-                    },
-                ],
+                text: "Basics",
+                children: ["/basics/types.md"],
+            },
+            {
+                text: "Tutorials",
+                children: ["/tutorials/how-to-create-a-new-type.md"],
             },
         ],
     },

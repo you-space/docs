@@ -11,15 +11,16 @@ export const sidebar: SidebarConfig = {
             ],
         },
     ],
-    "/types/": [
+    "/basics/": [
         {
-            text: "Types",
-            children: [
-                {
-                    text: "What is Types?",
-                    link: "/types",
-                },
-            ],
+            text: "Basics",
+            children: ["/basics/types.md"],
+        },
+    ],
+    "/tutorials/": [
+        {
+            text: "Tutorials",
+            children: ["/tutorials/how-to-create-a-new-type.md"],
         },
     ],
 };
