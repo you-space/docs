@@ -7,11 +7,8 @@ sidebarDepth: 0
 ## Prerequisites
 
 -   [Node v14](https://nodejs.org/en/)
-
 -   [Postgres v12](https://www.postgresql.org/)
-
 -   [Redis](https://redis.io/)
-
 -   Some tool to unzip the file like winrar, 7zip or unzip
 
 ## Installation
