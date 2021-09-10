@@ -14,7 +14,7 @@ export const sidebar: SidebarConfig = {
     "/basics/": [
         {
             text: "Basics",
-            children: ["/basics/types.md"],
+            children: ["/basics/types.md", "/basics/items.md"],
         },
     ],
     "/tutorials/": [

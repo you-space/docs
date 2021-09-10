@@ -18,7 +18,7 @@ export const navbar: NavbarConfig = [
             },
             {
                 text: "Basics",
-                children: ["/basics/types.md"],
+                children: ["/basics/types.md", "/basics/items.md"],
             },
             {
                 text: "Tutorials",
