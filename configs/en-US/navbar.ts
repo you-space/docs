@@ -18,12 +18,20 @@ export const navbar: NavbarConfig = [
             },
             {
                 text: "Basics",
-                children: ["/basics/types.md", "/basics/items.md"],
+                children: [
+                    "/basics/types.md",
+                    "/basics/items.md",
+                    "/basics/origins.md",
+                ],
             },
             {
                 text: "Tutorials",
                 children: ["/tutorials/how-to-create-a-new-type.md"],
             },
         ],
+    },
+    {
+        text: "Plugins",
+        children: ["/plugin-list.md"],
     },
 ];
