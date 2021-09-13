@@ -6,6 +6,18 @@ sidebarDepth: 1
 
 Return the array of origins
 
+## Query
+
+### page
+
+-   type: `number`
+-   details: page of request
+
+### limit
+
+-   type: `number`
+-   details: items per request, max: 40
+
 ## Response
 
 ```json
