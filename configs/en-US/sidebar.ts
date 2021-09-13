@@ -35,18 +35,18 @@ export const sidebar: SidebarConfig = {
         {
             text: "Origins",
             children: [
+                "/requests/origins/get-admin-origins.md",
                 "/requests/origins/post-admin-origins.md",
                 "/requests/origins/patch-admin-origins.md",
-                "/requests/origins/get-admin-origins.md",
                 "/requests/origins/del-admin-origins.md",
             ],
         },
         {
             text: "Types",
             children: [
+                "/requests/types/get-types.md",
                 "/requests/types/post-types.md",
                 "/requests/types/patch-types.md",
-                "/requests/types/get-types.md",
                 "/requests/types/del-types.md",
             ],
         },
@@ -58,6 +58,16 @@ export const sidebar: SidebarConfig = {
                 "/requests/type-fields/post-types-fields.md",
                 "/requests/type-fields/patch-types-fields.md",
                 "/requests/type-fields/del-types-fields.md",
+            ],
+        },
+        {
+            text: "Type items",
+            children: [
+                "/requests/type-items/get-types-items.md",
+                "/requests/type-items/get-types-items-id.md",
+                "/requests/type-items/post-types-items.md",
+                "/requests/type-items/patch-types-items.md",
+                "/requests/type-items/del-types-items.md",
             ],
         },
     ],
