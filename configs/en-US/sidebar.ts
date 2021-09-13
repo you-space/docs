@@ -70,5 +70,13 @@ export const sidebar: SidebarConfig = {
                 "/requests/type-items/del-types-items.md",
             ],
         },
+        {
+            text: "Items",
+            children: [
+                "/requests/items/get-items.md",
+                "/requests/items/post-items.md",
+                "/requests/items/patch-items.md",
+            ],
+        },
     ],
 };
