@@ -30,15 +30,15 @@ export const sidebar: SidebarConfig = {
     "/requests/": [
         {
             text: "Authentication",
-            children: ["/requests/post-auth.md"],
+            children: ["/requests/auth/post-auth.md"],
         },
         {
             text: "Origins",
             children: [
-                "/requests/post-admin-origins.md",
-                "/requests/patch-admin-origins.md",
-                "/requests/get-admin-origins.md",
-                "/requests/del-admin-origins.md",
+                "/requests/origins/post-admin-origins.md",
+                "/requests/origins/patch-admin-origins.md",
+                "/requests/origins/get-admin-origins.md",
+                "/requests/origins/del-admin-origins.md",
             ],
         },
     ],
