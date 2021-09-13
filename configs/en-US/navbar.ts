@@ -44,9 +44,14 @@ export const navbar: NavbarConfig = [
             {
                 text: "Requests",
                 children: [
-                    "/requests/post-auth.md",
-                    "/requests/post-admin-origins.md",
-                    "/requests/get-admin-origins.md",
+                    {
+                        text: "Authentication",
+                        link: "/requests/post-auth.md",
+                    },
+                    {
+                        text: "Origins",
+                        link: "/requests/post-admin-origins.md",
+                    },
                 ],
             },
         ],

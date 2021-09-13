@@ -29,10 +29,14 @@ export const sidebar: SidebarConfig = {
     ],
     "/requests/": [
         {
-            text: "Requests",
+            text: "Authentication",
+            children: ["/requests/post-auth.md"],
+        },
+        {
+            text: "Origins",
             children: [
-                "/requests/post-auth.md",
                 "/requests/post-admin-origins.md",
+                "/requests/patch-admin-origins.md",
                 "/requests/get-admin-origins.md",
             ],
         },
