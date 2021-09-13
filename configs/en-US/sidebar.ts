@@ -27,4 +27,10 @@ export const sidebar: SidebarConfig = {
             children: ["/tutorials/how-to-create-a-new-type.md"],
         },
     ],
+    "/requests/": [
+        {
+            text: "Requests",
+            children: ["/requests/post-auth.md"],
+        },
+    ],
 };

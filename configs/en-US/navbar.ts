@@ -23,19 +23,28 @@ export const navbar: NavbarConfig = [
         ],
     },
     {
-        text: "Basics",
+        text: "Reference",
         children: [
-            "/basics/types.md",
-            "/basics/items.md",
-            "/basics/origins.md",
+            {
+                text: "Basics",
+                children: [
+                    "/basics/types.md",
+                    "/basics/items.md",
+                    "/basics/origins.md",
+                ],
+            },
+            {
+                text: "Plugins",
+                children: ["/plugin-list.md"],
+            },
+            {
+                text: "Themes",
+                children: ["/theme-list.md"],
+            },
+            {
+                text: "Requests",
+                children: ["/requests/post-auth.md"],
+            },
         ],
-    },
-    {
-        text: "Plugins",
-        children: ["/plugin-list.md"],
-    },
-    {
-        text: "Themes",
-        children: ["/theme-list.md"],
     },
 ];
