@@ -43,7 +43,10 @@ export const sidebar: SidebarConfig = {
         },
         {
             text: "Types",
-            children: ["/requests/types/post-types.md"],
+            children: [
+                "/requests/types/post-types.md",
+                "/requests/types/get-types.md",
+            ],
         },
     ],
 };
