@@ -8,6 +8,18 @@ const isProduction = process.env.NODE_ENV === "production";
 export default defineUserConfig<DefaultThemeOptions>({
     base: isProduction ? "/docs/" : "/",
     head: [["link", { rel: "icon", href: "/logo-circle-200x200.png" }]],
+    plugins: [
+        [
+            "@vuepress/plugin-search",
+            {
+                locales: {
+                    "/": {
+                        placeholder: "Search",
+                    },
+                },
+            },
+        ],
+    ],
     // site-level locales config
     locales: {
         "/": {
@@ -23,7 +35,10 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
     themeConfig: {
         editLink: true,
-        repo: "you-space/docs",
+        repo: "you-space/you-space",
+        docsRepo: "you-space/docs",
+        docsDir: "docs",
+        contributors: false,
         locales: {
             "/": en,
             // '/pt-BR/': ptBR,
