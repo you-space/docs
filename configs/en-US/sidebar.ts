@@ -45,6 +45,7 @@ export const sidebar: SidebarConfig = {
             text: "Types",
             children: [
                 "/requests/types/post-types.md",
+                "/requests/types/patch-types.md",
                 "/requests/types/get-types.md",
             ],
         },

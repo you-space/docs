@@ -4,7 +4,7 @@ sidebarDepth: 1
 
 # GET /types
 
-Return the array of origins
+Return the array of types
 
 ## Query
 
