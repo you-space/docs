@@ -76,4 +76,8 @@ export const navbar: NavbarConfig = [
         text: "Feedback",
         link: "/feedback.md",
     },
+    {
+        text: "Contributing",
+        link: "/contributing.md",
+    },
 ];
