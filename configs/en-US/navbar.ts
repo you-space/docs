@@ -52,6 +52,10 @@ export const navbar: NavbarConfig = [
                         text: "Origins",
                         link: "/requests/origins/post-admin-origins.md",
                     },
+                    {
+                        text: "Types",
+                        link: "/requests/types/post-types.md",
+                    },
                 ],
             },
         ],

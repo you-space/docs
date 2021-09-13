@@ -41,5 +41,9 @@ export const sidebar: SidebarConfig = {
                 "/requests/origins/del-admin-origins.md",
             ],
         },
+        {
+            text: "Types",
+            children: ["/requests/types/post-types.md"],
+        },
     ],
 };
