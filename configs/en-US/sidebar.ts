@@ -47,6 +47,7 @@ export const sidebar: SidebarConfig = {
                 "/requests/types/post-types.md",
                 "/requests/types/patch-types.md",
                 "/requests/types/get-types.md",
+                "/requests/types/del-types.md",
             ],
         },
     ],
