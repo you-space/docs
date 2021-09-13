@@ -31,13 +31,6 @@ Request to get a authenticated token
 
 ## Response
 
-### token
-
--   type: `string`
--   details: Opaque token to authenticate subsequent requests
-
-### Example:
-
 ```json
 {
     "token": "7e690d9ec04912130daafc55bba7"
