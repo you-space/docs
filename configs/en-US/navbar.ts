@@ -56,6 +56,10 @@ export const navbar: NavbarConfig = [
                         text: "Types",
                         link: "/requests/types/post-types.md",
                     },
+                    {
+                        text: "Type fields",
+                        link: "/requests/type-fields/get-types-fields.md",
+                    },
                 ],
             },
         ],

@@ -50,5 +50,15 @@ export const sidebar: SidebarConfig = {
                 "/requests/types/del-types.md",
             ],
         },
+        {
+            text: "Type fields",
+            children: [
+                "/requests/type-fields/get-types-fields.md",
+                "/requests/type-fields/get-types-fields-id.md",
+                "/requests/type-fields/post-types-fields.md",
+                "/requests/type-fields/patch-types-fields.md",
+                "/requests/type-fields/del-types-fields.md",
+            ],
+        },
     ],
 };
