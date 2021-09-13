@@ -46,6 +46,7 @@ export const navbar: NavbarConfig = [
                 children: [
                     "/requests/post-auth.md",
                     "/requests/post-admin-origins.md",
+                    "/requests/get-admin-origins.md",
                 ],
             },
         ],

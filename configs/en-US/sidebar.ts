@@ -33,6 +33,7 @@ export const sidebar: SidebarConfig = {
             children: [
                 "/requests/post-auth.md",
                 "/requests/post-admin-origins.md",
+                "/requests/get-admin-origins.md",
             ],
         },
     ],
