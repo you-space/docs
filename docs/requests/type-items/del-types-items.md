@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 1
+sidebarDepth: 0
 ---
 
 # DEL /types/:type_id/items/:id

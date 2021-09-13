@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 1
+sidebarDepth: 0
 ---
 
 # GET /types/:type_id/fields/:id
