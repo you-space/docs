@@ -58,8 +58,6 @@ Update a origin
 
 ## Response
 
-The response will include the data of origin and provider properties
-
 ```json
 {
     "message": "origin updated"

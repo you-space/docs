@@ -38,6 +38,7 @@ export const sidebar: SidebarConfig = {
                 "/requests/post-admin-origins.md",
                 "/requests/patch-admin-origins.md",
                 "/requests/get-admin-origins.md",
+                "/requests/del-admin-origins.md",
             ],
         },
     ],
