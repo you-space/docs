@@ -17,7 +17,7 @@ So for example if the external content is a youtube-video, the item will contain
 
 If you already have some items with external content you can check they in items-list-page to view the raw data.
 
-> **Tip:** To have external content you will need a origin, that will handle the imports for you, check [origins-page](./basics/origins.md) to know more about.
+> **Tip:** To have external content you will need a origin, that will handle the imports for you, check [origins-page](./origins.md) to know more about.
 
 ## Items serialization
 
