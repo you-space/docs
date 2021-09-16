@@ -8,7 +8,7 @@ Thanks for the interesting in help the project, below are the items that you can
 
 ## Feedbacks
 
-We always looking for feedbacks of the project, so if you have time please check our [Feedback-page](/feedback.md)
+We always looking for feedbacks of the project, so if you have time please check our [Feedback-page](./feedback.md)
 
 ## Issues
 
