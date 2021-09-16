@@ -6,4 +6,4 @@ They are used to manage internal content like local videos or some external cont
 
 Types are also responsible for define how the related items will be displayed and edited in you-space instance.
 
-Usually a plugin will create the types and do all necessary configuration, but you can also create types manually in type-list page, check [How to create a new type](/tutorials/how-to-create-a-new-type.md) to know more about.
+Usually a plugin will create the types and do all necessary configuration, but you can also create types manually in type-list page, check [How to create a new type](./tutorials/how-to-create-a-new-type.md) to know more about.
