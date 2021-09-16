@@ -1,6 +1,6 @@
 {
   "name": "@you-space/docs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "documentation of you-space",
   "main": "index.js",
   "scripts": {
