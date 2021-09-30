@@ -3,10 +3,7 @@ import type { DefaultThemeOptions } from "vuepress";
 
 import { en, ptBR } from "./configs";
 
-const isProduction = process.env.NODE_ENV === "production";
-
 export default defineUserConfig<DefaultThemeOptions>({
-    base: isProduction ? "/docs/" : "/",
     head: [["link", { rel: "icon", href: "/logo-circle-200x200.png" }]],
     plugins: [
         [
